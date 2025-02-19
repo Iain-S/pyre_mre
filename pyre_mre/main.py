@@ -1,5 +1,5 @@
 """Minimal reproducible example of possible Pyre-check bug."""
-from collections.abc import Generator
+from typing import Generator
 
 
 def infinite_stream(start: int) -> Generator[int]:
