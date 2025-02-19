@@ -7,4 +7,3 @@ def infinite_stream(start: int) -> Generator[int]:
     while True:
         yield start
         start += 1
-
